@@ -1,0 +1,130 @@
+.header {
+  display: flex;
+  padding: 1em 1.5em;
+  justify-content: space-between;
+}
+
+.hero {
+  text-align: center;
+  padding-bottom: 5em;
+  background: var(--very-light-gray);
+}
+.hero .coppy {
+  line-height: 1.7;
+  font-weight: 300;
+  font-size: 1em;
+  margin-bottom: 2.5em;
+}
+.hero__image {
+  height: 300px;
+  margin: 0 -1.5em;
+  background: url("/images/image-mockups.png") center bottom no-repeat, url("/images/bg-intro-mobile.svg") center no-repeat;
+  background-size: 345px, cover;
+  margin-bottom: 1.2em;
+}
+
+.menu {
+  background: url("/images/icon-hamburger.svg") no-repeat center;
+  width: 25px;
+}
+
+.why {
+  text-align: center;
+  background: var(--light-grayish-blue);
+  padding-top: 5em;
+}
+.why .coppy {
+  line-height: 1.7;
+  font-weight: 300;
+  font-size: 1em;
+  margin-bottom: 4em;
+}
+.why__item {
+  margin-bottom: 2.5em;
+}
+.why__item img {
+  margin-bottom: 1.5em;
+}
+.why__item .coppy {
+  margin-bottom: 2em;
+}
+
+.latestArticle {
+  background: var(--very-light-gray);
+  padding-top: 5em 0;
+}
+.latestArticle-grid {
+  display: grid;
+  grid-row-gap: 2em;
+}
+.latestArticle .title__h1 {
+  text-align: center;
+}
+.latestArticle .title__h3 {
+  text-align: left;
+}
+.latestArticle-item {
+  border-radius: 0.5em;
+  overflow: hidden;
+  background: var(--white);
+}
+.latestArticle-item-content {
+  padding: 1em;
+}
+.latestArticle-item small {
+  color: var(--grayish-blue);
+  margin-bottom: 1em;
+  display: block;
+}
+.latestArticle-item img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+.latestArticle-item .coppy {
+  font-weight: 300;
+  color: var(--grayish-blue);
+}
+
+.footer {
+  background: var(--dark-blue);
+  color: var(--white);
+}
+
+body {
+  margin: 0;
+  background: white;
+  font-family: "Public Sans", sans-serif;
+  color: var(--grayish-blue);
+}
+
+.is-hiden {
+  display: none;
+}
+
+:root {
+  --dark-blue: hsl(233, 26%, 24%);
+  --lime-green: hsl(136, 65%, 51%);
+  --bright-cyan: hsl(192, 70%, 51%);
+  --grayish-blue: hsl(233, 8%, 62%);
+  --light-grayish-blue: hsl(220, 16%, 96%);
+  --very-light-gray: hsl(0, 0%, 98%);
+  --white: hsl(0, 0%, 100%);
+  font-size: 16px;
+}
+
+.wraper {
+  padding: 0 1.5em;
+}
+
+.button {
+  padding: 0.9em 2em;
+  font-size: 1em;
+  background-image: linear-gradient(to right, var(--lime-green) 0%, var(--bright-cyan) 100%);
+  border-radius: 1.5em;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

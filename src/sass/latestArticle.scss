@@ -1,0 +1,44 @@
+.latestArticle{
+    background: var(--very-light-gray);
+    padding-top: 5em 0;
+
+    &-grid{
+        display: grid;
+        grid-row-gap: 2em;
+    }
+
+.title__h1 {
+    text-align: center;
+}
+.title__h3 {
+    text-align: left;
+}
+    &-item{
+    
+        border-radius: .5em;
+        overflow: hidden;
+        background: var(--white);
+
+        &-content {
+            padding:1em;
+        }
+
+        small{
+            color: var(--grayish-blue);
+            margin-bottom: 1em;
+            display: block;
+        }
+    
+    img {
+        width: 100%;
+        object-fit: cover;
+        display: block;
+        
+        }
+
+        .coppy {
+            font-weight: 300;
+            color: var(--grayish-blue);
+        }
+    }
+}

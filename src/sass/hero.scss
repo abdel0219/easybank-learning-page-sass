@@ -1,0 +1,19 @@
+
+.hero {
+    text-align: center;
+    padding-bottom: 5em;
+    background: var(--very-light-gray);
+    .coppy {
+        line-height: 1.7;
+        font-weight: 300;
+        font-size: 1em;
+        margin-bottom: 2.5em;
+    }
+    &__image {
+        height: 300px;
+        margin: 0 -1.5em;
+        background: url('/images/image-mockups.png') center bottom no-repeat, url('/images/bg-intro-mobile.svg') center no-repeat;
+        background-size: 345px, cover;
+        margin-bottom: 1.2em;
+    }
+}
